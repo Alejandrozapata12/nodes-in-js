@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
 const box = document.getElementById("container");
 const MomList = document.createElement("ul");
 
-const items = ["","","","",""];
+const items = ["One","Two","Three","Four","Five"];
 
 items.forEach(function(itemText){
  const childItem = document.createElement("li");
